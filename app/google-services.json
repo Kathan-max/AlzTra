@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "955482444856",
+    "project_id": "alztrav3",
+    "storage_bucket": "alztrav3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955482444856:android:28469a86793c808c2102cd",
+        "android_client_info": {
+          "package_name": "com.example.finalversion3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955482444856-kjc7m3ijjdmd5hogmk9lsgl8jnqnuvdf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfbjBc8zQmihorCN9GZ1cuAgOuEUZf8Zo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955482444856-kjc7m3ijjdmd5hogmk9lsgl8jnqnuvdf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Helpcls"
+    android:background="@color/bge_purp">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="129dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:srcCompat="@drawable/logo6" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="Contact Us"
+        android:textColor="@color/teal_200"
+        android:textColorHint="@color/teal_200"
+        android:textSize="32sp"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105" />
+
+    <TextView
+        android:id="@+id/devyash_call"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:padding="12dp"
+        android:text="devyash.s@ahduni.edu.in"
+        android:textColor="@color/teal_200"
+        android:gravity="center"
+        android:background="@drawable/myborder"
+        android:textColorHint="@color/teal_200"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/dev_call"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="212dp"
+        android:padding="12dp"
+        android:text="dev.p1@ahduni.edu.in"
+        android:textColor="@color/teal_200"
+        android:textColorHint="@color/teal_200"
+        android:background="@drawable/myborder"
+        android:textSize="20sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/devyash_call"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/kathan_call"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="164dp"
+        android:padding="12dp"
+        android:text="kathan.b@ahduni.edu.in"
+        android:gravity="center"
+        android:textColor="@color/teal_200"
+        android:textColorHint="@color/teal_200"
+        android:textSize="20sp"
+        android:background="@drawable/myborder"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dev_call"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/meet_call"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="164dp"
+        android:background="@drawable/myborder"
+        android:padding="12dp"
+        android:text="meet.p6@ahduni.edu.in"
+        android:textColor="@color/teal_200"
+        android:textColorHint="@color/teal_200"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kathan_call"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/lalu_call"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="156dp"
+        android:background="@drawable/myborder"
+        android:padding="12dp"
+        android:text="pratham.l@ahduni.edu.in"
+        android:textColor="@color/teal_200"
+        android:textColorHint="@color/teal_200"
+        android:textSize="20sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meet_call"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/man_call"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="104dp"
+        android:background="@drawable/myborder"
+        android:padding="12dp"
+        android:text="manthan.p@ahduni.edu.in"
+        android:gravity="center"
+        android:textColor="@color/teal_200"
+        android:textColorHint="@color/teal_200"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lalu_call"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

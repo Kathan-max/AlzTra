@@ -1,0 +1,5 @@
+rootProject.name = "FinalVersion3"
+include ':app'
+//include ':esptouch'
+//include ':esptouch'
+//include ':esptouch-v2'

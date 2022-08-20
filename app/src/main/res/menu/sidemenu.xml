@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/profile"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="Profile" />
+
+        <item android:id="@+id/settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Settings" />
+
+        <item android:id="@+id/esptouch"
+            android:icon="@drawable/ic_baseline_wifi_24"
+            android:title="Device wifi config" />
+
+        <item android:id="@+id/help"
+            android:icon="@drawable/ic_baseline_help_24"
+            android:title="Help"/>
+
+        <item android:id="@+id/logout"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:title="Logout"/>
+
+    </group>
+</menu>
